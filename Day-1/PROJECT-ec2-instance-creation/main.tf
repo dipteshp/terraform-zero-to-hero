@@ -5,5 +5,4 @@ provider "aws" {
 resource "aws_instance" "example" {
     ami           = "ami-07fb9d5c721566c65"  # Specify an appropriate AMI ID
     instance_type = "t2.micro"
-    key_name = "diptesh-uk"
-}
+    }
